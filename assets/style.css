@@ -26,10 +26,10 @@ body {
   justify-content: center;
 }
 .card {
-  width: 150px; /* Fixed width */
-  height: 200px; /* Fixed height */
-  perspective: 1000px; /* Allows for 3D transforms */
-  border-radius: 10px; /* Rounded corners */
+  width: 150px;
+  height: 200px;
+  perspective: 1000px;
+  border-radius: 10px;
   overflow: hidden;
 }
 
@@ -104,5 +104,27 @@ footer a:hover {
   .card {
     width: 130px;
     height: 180px;
+  }
+}
+
+/* Small tablets and phones */
+@media (max-width: 768px) {
+  .card-grid {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+    gap: 20px; /* Space between cards */
+    justify-items: center; /* Center items within their grid cells */
+  }
+
+  .card {
+    width: 130px; /* Card width */
+    height: 180px; /* Card height */
+  }
+
+  /* Centering the last card if the row is uneven */
+  .card-grid > :nth-last-child(1):nth-child(odd) {
+    grid-column: span 2; /* Make the last card span both columns */
+    display: flex; /* Enable flexbox */
+    justify-content: center; /* Center the last card */
   }
 }
