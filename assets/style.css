@@ -4,6 +4,9 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   background: url('background.jpg') no-repeat center center fixed;
   background-size: cover;
 }
@@ -14,6 +17,7 @@ body {
   align-items: center;
   min-height: 80vh;
   padding: 20px;
+  flex-grow: 1;
 }
 
 .card-grid {
@@ -21,10 +25,12 @@ body {
   grid-gap: 20px;
   justify-content: center;
 }
-
-/* Styling for cards */
 .card {
-  perspective: 1000px;
+  width: 150px; /* Fixed width */
+  height: 200px; /* Fixed height */
+  perspective: 1000px; /* Allows for 3D transforms */
+  border-radius: 10px; /* Rounded corners */
+  overflow: hidden;
 }
 
 .card-inner {
@@ -67,6 +73,8 @@ footer {
   padding: 20px;
   background: rgba(0, 0, 0, 0.7);
   color: #fff;
+  margin-top: auto;
+  width: 100%;
 }
 
 footer a {
@@ -79,56 +87,22 @@ footer a:hover {
   color: #ccc;
 }
 
-  /* Responsive Design */
-  
-  /* Default grid for larger screens */
-  .card-grid {
-    grid-template-columns: repeat(5, 150px);
-  }
-  
-  .card-inner {
-    height: 200px;
-  }
-  
-  /* Medium screens (tablets and small laptops) */
-  @media (max-width: 1024px) {
-    .card-grid {
-      grid-template-columns: repeat(3, 1fr); /* 3 cards per row */
-    }
-  
-    .card-inner {
-      height: 180px;
-    }
-  }
-  
-  /* Small screens (phones and very small tablets) */
-  @media (max-width: 768px) {
-    .card-grid {
-      grid-template-columns: repeat(1, 1fr);
-    }
-  
-    .card-inner {
-      height: 160px;
-    }
-  
-    .card-grid {
-      grid-gap: 15px;
-    }
-  }
-  
-  /* Very small screens */
-  @media (max-width: 480px) {
-    .card-grid {
-      grid-template-columns: repeat(1, 1fr);
-    }
-  
-    .card-inner {
-      height: 140px;
-    }
-  
-    footer a {
-      font-size: 20px;
-    }
-  }
-  
+ /* Responsive Design */
 
+/* Default grid for larger screens */
+.card-grid {
+  grid-template-columns: repeat(5, 150px);
+}
+
+/* Tablets and small laptops */
+@media (max-width: 1024px) {
+  .card-grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+
+  .card {
+    width: 130px;
+    height: 180px;
+  }
+}
