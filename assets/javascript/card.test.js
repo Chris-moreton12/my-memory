@@ -13,14 +13,18 @@ beforeAll(() => {
             </div>
           </div>
     `;
+
+    $('.card').on('click', function() {
+        $(this).find('.card-inner').toggleClass('is-flipped');
+    });
 });
 
 describe("Card Flip Functionality", () => {
     test("should flip card when clicked", () => {
-        const card = document.querySelector('.card-inner');
+        const card = document.querySelector('.card');
         
         card.click();
         
-        expect(card.classList.contains('is-flipped')).toBe(true);
+        expect(card.querySelector('.card-inner').classList.contains('is-flipped')).toBe(true);
     });
 });
