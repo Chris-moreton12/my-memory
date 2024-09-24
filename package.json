@@ -351,5 +351,6 @@
   "bugs": {
     "url": "https://github.com/Chris-moreton12/my-memory/issues"
   },
-  "homepage": "https://github.com/Chris-moreton12/my-memory#readme"
+  "homepage": "https://github.com/Chris-moreton12/my-memory#readme",
+  "keywords": []
 }

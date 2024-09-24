@@ -1,18 +1,18 @@
 const cardFlip = require("../card");
 
 beforeAll(() => {
-    document.body.innerHTML = `
+    document.body.innerHTML = 
         <div class="card">
             <div class="card-inner">
-              <div class="card-front">
-                <img src="image" alt="Card Front Image">
-              </div>
-              <div class="card-back">
-                <img src="assets/images/background.webp" alt="Card Image">
-              </div>
+                <div class="card-front">
+                    <img src="image" alt="Card Front Image">
+                </div>
+                <div class="card-back">
+                    <img src="assets/images/background.webp" alt="Card Image">
+                </div>
             </div>
-          </div>
-    `;
+        </div>
+    ;
 
     $('.card').on('click', function() {
         $(this).find('.card-inner').toggleClass('is-flipped');
