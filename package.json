@@ -2,7 +2,7 @@
   "name": "my-memory",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "card.js",
   "dependencies": {
     "abab": "^2.0.6",
     "acorn": "^8.12.1",
@@ -351,6 +351,5 @@
   "bugs": {
     "url": "https://github.com/Chris-moreton12/my-memory/issues"
   },
-  "homepage": "https://github.com/Chris-moreton12/my-memory#readme",
-  "keywords": []
+  "homepage": "https://github.com/Chris-moreton12/my-memory#readme"
 }
