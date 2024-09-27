@@ -14,174 +14,173 @@
     <button id="toggle-theme">Dark Mode</button>
   </header>
 
+  <div id="welcome-message">
+    <h1>Welcome!</h1>
+    <p>The rules of this game are simple:</p>
+    <p>Match each card to its pair. There are 7 pairs.</p>
+    <p>One wrong click will cause you to lose the game!</p>
+    <p>There are no lives. Avoid the fire card!</p>
+    <button id="start-game">Start Game</button>
+</div>
+
+<!-- Game Section (Initially Hidden) -->
+<div id="game-content" style="display:none;">
     <div class="game-container">
         <div class="card-grid">
-          <div class="card">
-            <div class="card-inner">
-              <div class="card-front">
-                <img src="image" alt="Card Front Image">
-              </div>
-              <div class="card-back">
-                <img src="assets/images/background.webp" alt="Card Image">
-              </div>
+            <!-- 15 Playing Cards -->
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="assets/images/card1.jpg" alt="Card Front Image">
+                    </div>
+                    <div class="card-back">
+                        <img src="assets/images/background.webp" alt="Card Back Image">
+                    </div>
+                </div>
             </div>
-          </div>
-    
-          <div class="card">
-            <div class="card-inner">
-              <div class="card-front">
-                <img src="image" alt="Card Front Image">
-              </div>
-              <div class="card-back">
-                <img src="assets/images/background.webp" alt="Card Image">
-              </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="assets/images/card2.jpg" alt="Card Front Image">
+                    </div>
+                    <div class="card-back">
+                        <img src="assets/images/background.webp" alt="Card Back Image">
+                    </div>
+                </div>
             </div>
-          </div>
-    
-          <div class="card">
-            <div class="card-inner">
-              <div class="card-front">
-                <img src="image" alt="Card Front Image">
-              </div>
-              <div class="card-back">
-                <img src="assets/images/background.webp" alt="Card Image">
-              </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="assets/images/card3.jpg" alt="Card Front Image">
+                    </div>
+                    <div class="card-back">
+                        <img src="assets/images/background.webp" alt="Card Back Image">
+                    </div>
+                </div>
             </div>
-          </div>
-    
-          <div class="card">
-            <div class="card-inner">
-              <div class="card-front">
-                <img src="image" alt="Card Front Image">
-              </div>
-              <div class="card-back">
-                <img src="assets/images/background.webp" alt="Card Image">
-              </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="assets/images/card4.jpg" alt="Card Front Image">
+                    </div>
+                    <div class="card-back">
+                        <img src="assets/images/background.webp" alt="Card Back Image">
+                    </div>
+                </div>
             </div>
-          </div>
-    
-          <div class="card">
-            <div class="card-inner">
-              <div class="card-front">
-                <img src="image" alt="Card Front Image">
-              </div>
-              <div class="card-back">
-                <img src="assets/images/background.webp" alt="Card Image">
-              </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="assets/images/card5.jpg" alt="Card Front Image">
+                    </div>
+                    <div class="card-back">
+                        <img src="assets/images/background.webp" alt="Card Back Image">
+                    </div>
+                </div>
             </div>
-          </div>
-    
-          <div class="card">
-            <div class="card-inner">
-              <div class="card-front">
-                <img src="image" alt="Card Front Image">
-              </div>
-              <div class="card-back">
-                <img src="assets/images/background.webp" alt="Card Image">
-              </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="assets/images/card6.jpg" alt="Card Front Image">
+                    </div>
+                    <div class="card-back">
+                        <img src="assets/images/background.webp" alt="Card Back Image">
+                    </div>
+                </div>
             </div>
-          </div>
-    
-          <div class="card">
-            <div class="card-inner">
-              <div class="card-front">
-                <img src="image" alt="Card Front Image">
-              </div>
-              <div class="card-back">
-                <img src="assets/images/background.webp" alt="Card Image">
-              </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="assets/images/card7.jpg" alt="Card Front Image">
+                    </div>
+                    <div class="card-back">
+                        <img src="assets/images/background.webp" alt="Card Back Image">
+                    </div>
+                </div>
             </div>
-          </div>
-    
-          <div class="card">
-            <div class="card-inner">
-              <div class="card-front">
-                <img src="image" alt="Card Front Image">
-              </div>
-              <div class="card-back">
-                <img src="assets/images/background.webp" alt="Card Image">
-              </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="assets/images/card1.jpg" alt="Card Front Image">
+                    </div>
+                    <div class="card-back">
+                        <img src="assets/images/background.webp" alt="Card Back Image">
+                    </div>
+                </div>
             </div>
-          </div>
-    
-          <div class="card">
-            <div class="card-inner">
-              <div class="card-front">
-                <img src="image" alt="Card Front Image">
-              </div>
-              <div class="card-back">
-                <img src="assets/images/background.webp" alt="Card Image">
-              </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="assets/images/card2.jpg" alt="Card Front Image">
+                    </div>
+                    <div class="card-back">
+                        <img src="assets/images/background.webp" alt="Card Back Image">
+                    </div>
+                </div>
             </div>
-          </div>
-    
-          <div class="card">
-            <div class="card-inner">
-              <div class="card-front">
-                <img src="image" alt="Card Front Image">
-              </div>
-              <div class="card-back">
-                <img src="assets/images/background.webp" alt="Card Image">
-              </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="assets/images/card3.jpg" alt="Card Front Image">
+                    </div>
+                    <div class="card-back">
+                        <img src="assets/images/background.webp" alt="Card Back Image">
+                    </div>
+                </div>
             </div>
-          </div>
-    
-          <div class="card">
-            <div class="card-inner">
-              <div class="card-front">
-                <img src="image" alt="Card Front Image">
-              </div>
-              <div class="card-back">
-                <img src="assets/images/background.webp" alt="Card Image">
-              </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="assets/images/card4.jpg" alt="Card Front Image">
+                    </div>
+                    <div class="card-back">
+                        <img src="assets/images/background.webp" alt="Card Back Image">
+                    </div>
+                </div>
             </div>
-          </div>
-    
-          <div class="card">
-            <div class="card-inner">
-              <div class="card-front">
-                <img src="image" alt="Card Front Image">
-              </div>
-              <div class="card-back">
-                <img src="assets/images/background.webp" alt="Card Image">
-              </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="assets/images/card5.jpg" alt="Card Front Image">
+                    </div>
+                    <div class="card-back">
+                        <img src="assets/images/background.webp" alt="Card Back Image">
+                    </div>
+                </div>
             </div>
-          </div>
-    
-          <div class="card">
-            <div class="card-inner">
-              <div class="card-front">
-                <img src="image" alt="Card Front Image">
-              </div>
-              <div class="card-back">
-                <img src="assets/images/background.webp" alt="Card Image">
-              </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="assets/images/card6.jpg" alt="Card Front Image">
+                    </div>
+                    <div class="card-back">
+                        <img src="assets/images/background.webp" alt="Card Back Image">
+                    </div>
+                </div>
             </div>
-          </div>
-    
-          <div class="card">
-            <div class="card-inner">
-              <div class="card-front">
-                <img src="image" alt="Card Front Image">
-              </div>
-              <div class="card-back">
-                <img src="assets/images/background.webp" alt="Card Image">
-              </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="assets/images/card7.jpg" alt="Card Front Image">
+                    </div>
+                    <div class="card-back">
+                        <img src="assets/images/background.webp" alt="Card Back Image">
+                    </div>
+                </div>
             </div>
-          </div>
-    
-          <div class="card">
-            <div class="card-inner">
-              <div class="card-front">
-                <img src="image" alt="Card Front Image">
-              </div>
-              <div class="card-back">
-                <img src="assets/images/background.webp" alt="Card Image">
-              </div>
+            <div class="card">
+                <div class="card-inner">
+                    <div class="card-front">
+                        <img src="assets/images/fire_card.jpg" alt="Fire Card (Game Over)">
+                    </div>
+                    <div class="card-back">
+                        <img src="assets/images/background.webp" alt="Card Back Image">
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
+</div>
 
   <!-- Footer which includes social media links -->
   <footer>

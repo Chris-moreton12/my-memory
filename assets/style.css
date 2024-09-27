@@ -30,6 +30,32 @@ button {
   cursor: pointer;
 }
 
+#welcome-message {
+  text-align: center;
+  margin-top: 50px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+#start-game {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #17f11e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#start-game:hover {
+  background-color: #0df719;
+}
+
 .game-container {
   display: flex;
   justify-content: center;
