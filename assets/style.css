@@ -134,6 +134,40 @@ footer a:hover {
   color: #ccc;
 }
 
+/* Style for You Win and You Failed messages */
+#win-message, #fail-message {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  z-index: 1000;
+}
+
+#win-message h1, #fail-message h1 {
+  font-size: 36px;
+  margin: 0 0 20px;
+}
+
+#win-message button, #fail-message button {
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  background-color: #17f11e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+#win-message button:hover, #fail-message button:hover {
+  background-color: #0df719;
+}
+
+
  /* Responsive Design */
 
 /* Default grid for larger screens */
