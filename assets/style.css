@@ -75,7 +75,7 @@ button {
 
 .card {
   width: 150px;
-  height: 200px;
+  height: 150px;
   perspective: 1000px;
   border-radius: 10px;
   overflow: hidden;
@@ -150,8 +150,8 @@ footer a:hover {
 
   /* Card height and width on smaller screens */
   .card {
-    width: 130px;
-    height: 180px;
+    width: 100px;
+    height: 100px;
   }
 }
 
@@ -165,8 +165,8 @@ footer a:hover {
   }
 
   .card {
-    width: 130px;
-    height: 180px;
+    width: 100px;
+    height: 100px;
   }
 
   /* Code adapted from https://stackoverflow.com/questions/46276793/how-to-center-elements-on-the-last-row-in-css-grid */
