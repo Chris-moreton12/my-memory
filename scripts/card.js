@@ -1,4 +1,5 @@
 $(document).ready(function () {
+    // Keeps track of players actions
     let firstCard = null;
     let secondCard = null;
     let preventClick = false;
@@ -62,7 +63,7 @@ $(document).ready(function () {
                     secondCard = null;
                     preventClick = false;
 
-                    // Check if the player has matched all pairs
+                    // Check if the player has matched all the pairs
                     if (matchedCards === totalPairs) {
                         setTimeout(() => {
                             alert("You Win!"); // Show the win message if all pairs are matched 
