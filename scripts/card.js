@@ -3,15 +3,15 @@ $(document).ready(function () {
     let secondCard = null;
     let preventClick = false;
     let matchedCards = 0;
-    const totalPairs = 7; // Total number of pairs in the game
+    const totalPairs = 7;
 
-    // Start Game Button Click Event
+    // Click Event for Game Start Button
     $("#start-game").click(function () {
-        // Hide the welcome message and show the game content after clicking start
+        // Hide the welcome message, show the game content after clicking start
         $("#welcome-message").fadeOut(500, function () {
             $("#game-content").fadeIn(500);
             shuffleCards(); // Shuffle the cards at the start of the game
-            attachCardClickEvent(); // Attach the click event after shuffling
+            attachCardClickEvent();
         });
     });
 
@@ -51,12 +51,12 @@ $(document).ready(function () {
                     return;
                 }
 
-                // Check if the two flipped cards match
+                // Check if the 2 cards that are flipped, match
                 const firstCardImg = firstCard.find(".card-front img").attr("src");
                 const secondCardImg = secondCard.find(".card-front img").attr("src");
 
                 if (firstCardImg === secondCardImg) {
-                    // Cards match, keep them flipped and disable further clicks
+                    // If the 2 Cards match, keep them flipped and do not allow the mto be cliked again
                     matchedCards++;
                     firstCard = null;
                     secondCard = null;
@@ -65,8 +65,8 @@ $(document).ready(function () {
                     // Check if the player has matched all pairs
                     if (matchedCards === totalPairs) {
                         setTimeout(() => {
-                            alert("You Win!"); // Show the win message
-                            resetGame(); // Reset the game
+                            alert("You Win!"); // Show the win message if all pairs are matched 
+                            resetGame(); // Reset the game if all pairs are matched
                         }, 500);
                     }
                 } else {
