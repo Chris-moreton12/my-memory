@@ -121,6 +121,14 @@ button {
   margin-top: 10px;
 }
 
+/* Disable visual search hover, used from stack overflow  */
+img {
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  user-select: none;
+  pointer-events: none;
+}
+
 /* Footer */
 footer {
   text-align: center;
