@@ -1,11 +1,11 @@
+// Keeps track of players actions
+let firstCard = null;
+let secondCard = null;
+let preventClick = false;
+let matchedCards = 0;
+const totalPairs = 7;
 $(document).ready(function () {
-    // Keeps track of players actions
-    let firstCard = null;
-    let secondCard = null;
-    let preventClick = false;
-    let matchedCards = 0;
-    const totalPairs = 7;
-
+    
     // Click Event for Game Start Button
     $("#start-game").click(function () {
         // Hide the welcome message, show the game content after clicking start
@@ -47,20 +47,20 @@ $(document).ready(function () {
             // Flip the card clicked
             $(this).find(".card-inner").addClass("is-flipped");
 
+            // Check if the clicked card is the fire card
+            if ($(this).hasClass("fire")) {
+                setTimeout(() => {
+                    alert("You Failed!"); // Show the failure message if fire card is clicked
+                    resetGame(); // Reset the game immediately when the fire card is clicked
+                }, 500);
+                return;
+            }
+
             if (!firstCard) {
                 firstCard = $(this);
             } else {
                 secondCard = $(this);
                 preventClick = true;
-
-                 // Check if the flame card is clicked
-                 if (firstCard.hasClass("fire") || secondCard.hasClass("fire")) {
-                    setTimeout(() => {
-                        alert("You Failed!"); // Show the failure message if flame card is clicked
-                        resetGame(); // Reset the game if flame card is clicked
-                    }, 500);
-                    return;
-                }
 
                 // Check if the 2 cards that are flipped, match
                 const firstCardImg = firstCard.find(".card-front img").attr("src");
