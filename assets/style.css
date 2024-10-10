@@ -11,6 +11,7 @@ body {
   background: url('background.jpg') no-repeat center center fixed;
   background-size: cover;
 }
+
 /* Style for the header and toggle dark mode */
 header {
   display: flex;
