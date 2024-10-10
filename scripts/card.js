@@ -16,6 +16,16 @@ $(document).ready(function () {
         });
     });
 
+    // Allows for background t be turned dark when dark mode button is clicked
+    $("#toggle-theme").click(function () {
+        $("#canvas-wrapper").toggleClass("dark-mode");
+        if ($("#canvas-wrapper").hasClass("dark-mode")) {
+            $(this).text("Light Mode");
+        } else {
+            $(this).text("Dark Mode");
+        }
+    });
+
     // Function to shuffle the cards randomly
     function shuffleCards() {
         const cards = $(".card");
