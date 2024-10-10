@@ -1,5 +1,6 @@
 
 /* Style for body and background image */
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -17,6 +18,31 @@ header {
   align-items: center;
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Allows for fotter to reamin at bottom of page */
+#canvas-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+#canvas-wrapper.dark-mode {
+  background: #222;
+  color: #DDD;
+}
+
+.card.dark-mode {
+  background-color: #333;
+  color: white;
+}
+
+#canvas-wrapper.dark-mode h1 {
+  color:red;
+}
+
+#canvas-wrapper.dark-mode p {
+  color:rgb(38, 0, 255);
 }
 
 h1 {
@@ -38,6 +64,7 @@ button {
   padding: 20px;
   border-radius: 10px;
   font-size: 18px;
+  width: 100vw;
 }
 
 #start-game {
@@ -136,7 +163,7 @@ footer {
   background: rgba(0, 0, 0, 0.7);
   color: #fff;
   margin-top: auto;
-  width: 100%;
+  width: 100vw;
 }
 
 footer a {
@@ -189,6 +216,7 @@ footer a:hover {
 .card-grid {
   grid-template-columns: repeat(5, 150px);
 }
+
 
 /* Tablets and small laptops */
 @media (max-width: 1024px) {
