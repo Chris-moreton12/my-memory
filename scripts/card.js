@@ -16,7 +16,7 @@ $(document).ready(function () {
         });
     });
 
-    // Allows for background t be turned dark when dark mode button is clicked
+    // Allows for background t be turned dark when dark mode button is clicked, code adapted from stack overflow
     $("#toggle-theme").click(function () {
         $("#canvas-wrapper").toggleClass("dark-mode");
         if ($("#canvas-wrapper").hasClass("dark-mode")) {

@@ -20,7 +20,7 @@ header {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-/* Allows for fotter to reamin at bottom of page */
+/* Allows for fotter to reamin at bottom of page, adapted from stack overflow*/
 #canvas-wrapper {
   display: flex;
   flex-direction: column;
