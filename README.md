@@ -96,3 +96,87 @@
 <a name="features"></a>
 ### index.html
 
+#### Header
+![Header](assets/images/)
+
+> The Header is developed simply with a heading 1 and a button to toggle dark and light mode with a second button to toggle the music on and off. The title of the game returns the user to the start with the instructions displayed at a click. The image diplayed is the the header view on all devices, the layout of the header does not change significantly and throughout each screen size, each element remains in conjunction to the next.
+
+#### Background Section
+![Background Section](assets/images/features/background-)
+
+> Image section with 15 flip cards, the back of the flip cards are initially shown to the user, these contain a personalised picture comprised of 2 images and a title. the images were sourced and the title was created by me, these were then made into one image. The reverse of the cards (front) showcase pictures, each picture is hsown twice on different cards, there is a tractor, car, motorbike, boat,bus, train and lorry. There is also one odd card which contains a picture of a flame, if this card is selected, the game ends and the usr fails. THe idea of the game is to match all 7 pairs without clikcing the flame card.
+
+#### Footer
+![Footer](assets/images/features/footer)
+
+> the footer is a simple footer with 3 i class elements using font-awesome icons. These icons are links to social media accounts (facebook, instagrem and twitter).
+
+#### You Win alert
+![You Win alert](assets/images/)
+
+> This is the alert whhich pops up if you win the game.
+
+#### You Failed alert
+![You Failed alert](assets/images/)
+
+> This is the alert whhich pops up if you fail the game.
+
+<a name="left"></a>
+# Features Left to implement
+
+#### Background Section
+> In the future I would like to include a second background section with a link to this in the header. This will include different games / a differnt version of the game. This will give the user more of a choice on games to play and can lead to an overall better enjoyment of my game site.
+
+<a name="tech"></a>
+
+# Technology Used
+
+### Html
+> Used to structure my webpage.
+
+### CSS
+> Used to style and add layout to my project.
+
+### Font Awesome
+> Used for all the icons in this project
+
+### GoogleFonts
+> Used for the fonts in this project and comparison potential fonts.
+
+### https://www.freeconvert.com
+> Used to convert files from png to webp to reduce size and improve web loading speed.
+
+### www.freepik.com
+> Used for royalty free images for my webpage.
+
+### www.remove.bg
+> Used to remove the backgound on images sourced.
+
+### Jquery
+> Used for styling the flip cards for the game.
+
+### www.stackoverflow.com 
+> Used for obtaining some code code for jquery to adapt.
+
+### www.W3schools.com 
+> Used for checking the vlidation of HTML and CSS.
+
+### Lighthouse
+> Used to check the performance, accessibliy and best practices of my site.
+
+<a name="testing"></a>
+# Testing
+> Testing on this site was primarily completed by myself and collegues within my workplace. Each new commit allowed for a new test to be completed. After each major change, this change was manually checked by me to ensure that it worked as expected. Thi meant that each session of coding, there were multiple tests completed. Manual tests were also completed by collegues at work who gave thier suggestions and their input in the game.
+
+### Testing Phase
+
+**Testing for links and Form**
+| Test |Outcome  |
+|--|--|
+|THe toggle dark button allowed the screen to be turned dark / light at the click of the button| Pass
+|Footer social links all lead to their respective social media sites |Pass|
+|Ony a maximum of 2 cards could be clicked at any one time| Pass|
+|If the cards match, they remained turned| Pass|
+|If the cards do not match, they turn bakc to their original state| Pass|
+|If the flame card is clicked, the site pops up an alert to state you failed and the user clicks ok to return to the welcome message| Pass|
+|If the user matches all 7 pairs, the game pops up an alert to state you win| Pass|
