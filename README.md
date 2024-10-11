@@ -320,5 +320,15 @@ https://www.freepik.com/free-photo/close-up-pink-jigsaw-puzzle-piece-blue-backgr
 ### https://fontawesome.com/
 > This ws used for the footer icons for social media links.
 
+<a name="acknowlegements"></a>
+
+## Acknowledgements
+
+### Sheryl Goldberg
+> My mentor who helped me with constructive feedback and ensured my project submission time was met with help on some bugs and functionality.
+
+### Miguel Ortega Legorreta
+> My Tutor who supported me to reach on time submission.
+
 
 
