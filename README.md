@@ -170,13 +170,33 @@
 
 ### Testing Phase
 
-**Testing for links and Form**
+**Testing for game function and links**
 | Test |Outcome  |
 |--|--|
-|THe toggle dark button allowed the screen to be turned dark / light at the click of the button| Pass
+|The toggle dark button allowed the screen to be turned dark / light at the click of the button| Pass
 |Footer social links all lead to their respective social media sites |Pass|
 |Ony a maximum of 2 cards could be clicked at any one time| Pass|
 |If the cards match, they remained turned| Pass|
 |If the cards do not match, they turn bakc to their original state| Pass|
 |If the flame card is clicked, the site pops up an alert to state you failed and the user clicks ok to return to the welcome message| Pass|
 |If the user matches all 7 pairs, the game pops up an alert to state you win| Pass|
+
+**Testing for responsiveness**
+| Test |Outcome  |
+|--|--|
+|Test to see if the default layout of the cards is in 3 rows of 5|Pass |
+|Test to see if on small screens, the cards adjust to dispalay in rows of two woth the last odd card centered for aesthetic purposes |Pass |
+
+### User testing
+
+**User testing Challenge**
+
+> 3 users are given tasks to complete wh nvisiting the game site.
+
+| Test | Result |
+|--|--|
+|When entering the site, ensure thatthe game rules pop up.| 100%|
+|Please press the toggle dark button to check if the screen goes into dark mode|100%  |
+|Please click on the cards to ensure that only 2 cards turn, also make sure that if they match that they remain turned| 100%|
+|Please search for the flame card to see if it resets the game after an alert pops up| 100%  |
+|Please aim to complete the game and see if an alert pops up to say you win| 100%  |
