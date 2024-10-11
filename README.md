@@ -207,6 +207,14 @@
 |--|--|
 |Issues Reported| None|
 
+**User testing suggestions**
+
+> User one - Suggested that I should use emoji images to make the game harder to distinguihs between the pictures.
+
+> User two - Suggested that I should add another page to allow for more versions of the game to be made.
+
+> User three - Suggested that I should add more cards to make the initial game longer / harder.
+
 ## Google Lighthouse Testing
 
 ### index.html
@@ -229,3 +237,5 @@
 > Bug wit hresponsive design, on Ipad size, the page did not display anything. Adjusted and edited the responsive design screen sizes and bug was fixed. **fixed**
 
 > Bug with jquery not allowing the cards to flip / when they flipped they just mirrorer my original back of card. Edited the classes of the images to ensure that the image you see on default is the back of the card and the image when turned is the front of the card. Added a .card-back class to the roate y 180 deg. **fixed**
+
+> Bug with the fail alert only appearing after two cards are clicked. Moved the line of jquery code to line after 48. Ensured the code was writtne to state that if the card has class fire to restart the game after displaying the alert.  **fixed**
