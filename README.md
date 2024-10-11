@@ -239,3 +239,16 @@
 > Bug with jquery not allowing the cards to flip / when they flipped they just mirrorer my original back of card. Edited the classes of the images to ensure that the image you see on default is the back of the card and the image when turned is the front of the card. Added a .card-back class to the roate y 180 deg. **fixed**
 
 > Bug with the fail alert only appearing after two cards are clicked. Moved the line of jquery code to line after 48. Ensured the code was writtne to state that if the card has class fire to restart the game after displaying the alert.  **fixed**
+
+<a name="deployment"></a>
+## Deployment
+
+> To deploy the project I followed these steps starting from the main project repository [here](https://github.com/Chris-moreton12/).
+
+ 1. Clicked on `Settings` on the navigation menu in the repository
+ 2. I then selected the `Pages` menu on the side bar.
+ 3. In the first dropdown menu labeled `Source` I selected the branch of the name `main` from the dropdown.
+ 4. In the next dropdown labeled `/root` I left as the default option.
+ 5. Selected Save
+
+ > I then received a notification from GitHub that my project is being deployed and after about 2 minute and a some page refreshes it was ready and live.
