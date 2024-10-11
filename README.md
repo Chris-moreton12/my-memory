@@ -200,3 +200,32 @@
 |Please click on the cards to ensure that only 2 cards turn, also make sure that if they match that they remain turned| 100%|
 |Please search for the flame card to see if it resets the game after an alert pops up| 100%  |
 |Please aim to complete the game and see if an alert pops up to say you win| 100%  |
+
+> 3 users were asked to view the website on their mobile devices and/or tablets to provide any feedback on errors or page issues.
+
+| Test | Result |
+|--|--|
+|Issues Reported| None|
+
+## Google Lighthouse Testing
+
+### index.html
+
+![Google Lighthouse index.html](assets/images/testing-scans/)
+
+## HTML Validation
+
+### index.html
+![W3 index.html Check](assets/images/testing-scans/index-w3-check)
+#### Result: No Errors
+
+<a name="bugs"></a>
+
+## **Bugs**
+> Bug with the footer not sticking to the bottom of the page. Canvas wrapper used to ensure that the footer would remian at the bottom of the page. **fixed**
+
+> Bug with footer not covering the width of the viewport. Edited nd ensure tht footer covers 100% of viewport width. **fixed**
+
+> Bug wit hresponsive design, on Ipad size, the page did not display anything. Adjusted and edited the responsive design screen sizes and bug was fixed. **fixed**
+
+> Bug with jquery not allowing the cards to flip / when they flipped they just mirrorer my original back of card. Edited the classes of the images to ensure that the image you see on default is the back of the card and the image when turned is the front of the card. Added a .card-back class to the roate y 180 deg. **fixed**
