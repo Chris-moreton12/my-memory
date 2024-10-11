@@ -252,3 +252,73 @@
  5. Selected Save
 
  > I then received a notification from GitHub that my project is being deployed and after about 2 minute and a some page refreshes it was ready and live.
+
+ <a name="credits"></a>
+## Credits
+
+### All images sourced from freepik.com. Links for images included below;
+
+>  Card back image: https://www.freepik.com/free-vector/doodle-tangled-scribble_134996330.htm#fromView=image_search_similar&page=1&position=6&uuid=e7ab6ad1-6141-4daa-bb99-a3763c81433f  
+https://www.freepik.com/free-photo/close-up-pink-jigsaw-puzzle-piece-blue-background_5015048.htm#fromView=search&page=1&position=24&uuid=d7a0b8f1-0a65-4a61-b9a9-4d11f943ec40    
+
+> Memory card car: https://www.freepik.com/free-psd/cartoon-modern-car-illustration_137972561.htm#query=cartoon%20cars&position=6&from_view=keyword&track=ais_hybrid&uuid=997be9dd-60a3-4c1a-bf54-aad53828d273    
+
+> Memory card tractor: https://www.freepik.com/free-vector/green-tractor-with-big-wheels_22746642.htm#fromView=search&page=1&position=2&uuid=3e2cb8ab-fe59-4b23-bc7e-2eeb26ffb850 
+
+> Memory card bus: https://www.freepik.com/free-vector/bus-cartoon-icon-illustration_10340598.htm#fromView=search&page=1&position=3&uuid=3fec54a6-19af-4e8f-9ec2-2cfa7d55fe7c
+
+> Memory card motor bike: https://www.freepik.com/free-vector/red-color-motorcycle-isolated-white-background_9648067.htm#fromView=search&page=1&position=1&uuid=6d403e30-04a6-4274-9936-b5af04c30cc2
+
+> Memory card train: https://www.freepik.com/free-vector/steam-locomotive-train-vintage-style_26348426.htm#fromView=search&page=1&position=28&uuid=b3fa9bf5-0f4f-4761-afbd-ec5b1721d662
+
+> Memory card lorry: https://www.freepik.com/free-vector/hand-drawn-transport-truck_20289254.htm#fromView=search&page=2&position=14&uuid=d9dc4ca9-c8b4-4774-a7e7-c8e4b96a0597
+
+> Memory card boat: https://www.freepik.com/free-vector/object-illustration_1553577.htm#fromView=search&page=1&position=36&uuid=9e2c5c73-ec7b-4c4a-b133-ff0a14532149
+
+> Memory card fire: https://www.freepik.com/free-psd/fire-element-illustration_42064069.htm#fromView=search&page=1&position=1&uuid=c01ae487-0bf9-4a8d-bcba-f6070303cd92
+
+<a name="content"></a>
+
+## Content & Resources
+
+### https://validator.w3.org/
+> W3C validator to check HTML validation.
+
+### https://jigsaw.w3.org/css-validator/
+> W3C validator for CSS validation.
+
+### https://www.w3schools.com/
+> Overall aid with coding.
+
+### Stack overflow
+
+### https://stackoverflow.com/questions/10809995/css-disable-text-selection -disable visual search hover
+>This was used to disable the image visual search hover.
+
+> ### https://stackoverflow.com/questions/56511466 how-to-create-a-jquery-function-to-toggle-dark-mode
+>This was used to aid with the toggle dark mode button.
+
+### https://stackoverflow.com/questions/46276793/how-to-center-elements-on-the-last-row-in-css-grid 
+>This was used to aid centering the odd card when in smaller screen mode.
+
+### https://stackoverflow.com/questions/73603123/function-for-shuffling-a-deck-of-cards-js#:~:text=So%20an%20easier%20way%20to%20shuffle 
+>This was used to aid with the shuffling of the cards randomly at the start of each game.
+
+### https://stackoverflow.com/questions/2804157/how-to-alert-using-jquery#:~:text=3%20Answers.%20Sorted%20by:%2093.%20$(%22.overdue%22).each 
+>This was ued to aid in creating the alerts for the win and fail.
+
+### https://www.freeconvert.com/jpg-to-webp
+
+> This was used to convert the images from JPEG to WEBP for faster loading time due to smaller compressed images.
+
+### https://www.remove.bg/upload
+> This was used to remove the background off of the images sourced.
+
+### https://codepen.io/SH20RAJ/pen/bGZyzmE
+> This was used as an overall aid for building the memory card game.
+
+### https://fontawesome.com/
+> This ws used for the footer icons for social media links.
+
+
+
