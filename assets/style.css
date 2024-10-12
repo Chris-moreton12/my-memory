@@ -58,6 +58,8 @@ button {
   font-size: 16px;
   cursor: pointer;
 }
+
+
 /* Style for welcome message pop up */
 #welcome-message {
   text-align: center;
