@@ -16,7 +16,7 @@ $(document).ready(function () {
         });
     });
 
-    // Allows for background t be turned dark when dark mode button is clicked, code adapted from stack overflow
+    // Allows for background to be turned dark when dark mode button is clicked, code adapted from stack overflow
     $("#toggle-theme").click(function () {
         $("#canvas-wrapper").toggleClass("dark-mode");
         if ($("#canvas-wrapper").hasClass("dark-mode")) {
@@ -24,6 +24,11 @@ $(document).ready(function () {
         } else {
             $(this).text("Dark Mode");
         }
+    });
+
+     // Restart button
+     $("#restart-game").click(function () {
+        resetGame(); // Call the resetGame function when the restart button is clicked in game
     });
 
     // Function to shuffle the cards randomly
