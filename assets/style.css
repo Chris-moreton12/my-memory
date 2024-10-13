@@ -19,6 +19,16 @@ header {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
+#toggle-theme{
+  background-color: #ff6347;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
 /* Allows for fotter to reamin at bottom of page, adapted from stack overflow*/
 #canvas-wrapper {
   display: flex;
@@ -48,7 +58,8 @@ header {
 
 h1 {
   margin: 0;
-  font-size: 24px;
+  font-size: 30px;
+  color:rgb(37, 6, 241);
 }
 
 button {
@@ -97,8 +108,6 @@ button {
 
 /* Stlying for restart game button */
 #restart-game {
-  display: none;
-  padding: 10px 20px;
   background-color: #ff6347;
   border: none;
   border-radius: 5px;
@@ -106,7 +115,6 @@ button {
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
-  margin-top: 20px;
 }
 
 #restart-game:hover {
