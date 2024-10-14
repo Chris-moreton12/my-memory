@@ -66,11 +66,14 @@
 ![Home Page Desktop Wireframe](assets/images/wireframes/home-page.png)
 
 ### Home Page Smaller Device Wireframe
+
+> The is the top view of the page.
 ![Home Page Smaller Devices / Responsive Wireframe](assets/images/wireframes/phone-page-top.png)
 
+> This is the bottom view of the page
 ![Home Page Smaller Devices / Responsive Wireframe](assets/images/wireframes/phone-page-bottom.png)
 
-> The deisgn I have implemented in the wire frame is in aim of making the game simple, responsive and user friendly.
+> The design I have implemented in the wire frame is in aim of making the game simple, responsive and user friendly.
 > The image on the back of the cards (the image displayed before turning) has been created by me with the help of some free images sourced, the images sourced will be referenced in the relevant section.
 
 ## Surface Plane
@@ -80,10 +83,21 @@
 
 > The decision on colors that I made was to incorporate. 
 
- - #color code
+ - #color 
+ > rgb(38, 0, 255);
+ > rgb(255, 0, 0);
+ > rgb(37, 6, 241);
+ > rgb(255, 255, 255);
+ > rgb(34, 34, 34);
+ > rgb(221, 221, 221);
+ > rgb(255, 99, 71);
+ > rgb(23, 241, 30);
+ > rgb(13, 247, 25);
+ > rgb(255, 99, 71);
+ > rgb(255, 69, 0);
 
 >These colors allow each part of my page to stand out which allow for user enjoyability. The abiltiy to toggle from dark to light mode also allows for user enjoyabiltiy and accessibility.
->The images within this project allow for a variety of different colors which alows them to stand out from the page.
+>The images within this project allow for a variety of different colors which alows them to stand out from the page. There does appear to be a large amount of color used however, these colors contain multiple different shades of each to allow for the hover affect and a slight color variation upon the screen turning dark.
 
 ### Typography - 
 
