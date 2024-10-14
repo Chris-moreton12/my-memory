@@ -20,7 +20,7 @@ header {
 }
 
 #toggle-theme{
-  background-color: #ff6347;
+  background-color: rgb(255, 99, 71);
   border: none;
   border-radius: 5px;
   color: white;
@@ -39,17 +39,17 @@ header {
 }
 
 #canvas-wrapper.dark-mode {
-  background: #222;
-  color: #DDD;
+  background: rgb(34, 34, 34);
+  color: rgb(221, 221, 221);
 }
 
 .card.dark-mode {
   background-color: #333;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 #canvas-wrapper.dark-mode h1 {
-  color:red;
+  color:rgb(255, 0, 0);
 }
 
 #canvas-wrapper.dark-mode p {
@@ -87,14 +87,14 @@ button {
   padding: 10px 20px;
   font-size: 18px;
   cursor: pointer;
-  background-color: #17f11e;
+  background-color: rgb(23, 241, 30);
   color: white;
   border: none;
   border-radius: 5px;
 }
 
 #start-game:hover {
-  background-color: #0df719;
+  background-color: rgb(13, 247, 25);
 }
 
 .game-container {
@@ -108,7 +108,7 @@ button {
 
 /* Stlying for restart game button */
 #restart-game {
-  background-color: #ff6347;
+  background-color: rgb(255, 99, 71);
   border: none;
   border-radius: 5px;
   color: white;
@@ -118,7 +118,7 @@ button {
 }
 
 #restart-game:hover {
-  background-color: #ff4500;
+  background-color: rgb(255, 69, 0);
 }
 
 /* Stlying for cards */
