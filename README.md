@@ -3,11 +3,11 @@
 ### MS1 - Christopher Moreton
 
 
-## **[Live site](https:)**
+## **[Live site](https://chris-moreton12.github.io/my-memory/)**
 
 ------------------------------------------------------------------
 
-## **[Repository](https)**
+## **[Repository](https://github.com/Chris-moreton12/my-memory)**
 
 ------------------------------------------------------------------
 
@@ -58,15 +58,17 @@
 > To achieve the above goals, am gam will be created which will show 15 cards, these cards will include 7 pairs and one fail card which ends the game. Upon clicking the cards, they shall turn and show the picture on the reverse side. If 2 cards are clicked which match, these shall remain turned. If 2 cards are clicked which do not match, they shall return face down. the game is complete once all 7 pairs are found by avoiding the fail card. Due to their being a fail card, there will be no countdown on lives (unlimited). 
 
 **Home Page**
-> The one oage that will be displayed will have all 15 cards displayed along with a header and a footer. The header has the title and a toggle button to change the game from light to dark mode for accessibility.
+> The one page that will be displayed will have all 15 cards displayed along with a header and a footer. The header has the title and a toggle button to change the game from light to dark mode for accessibility, the header also showcases a restart game button whihc allows the user to head back to the instructions section.
 
 ## Skeleton Plane
 
 ### Home Page Desktop Wireframe
-![Home Page Desktop Wireframe]()
+![Home Page Desktop Wireframe](assets/images/wireframes/home-page.png)
 
 ### Home Page Smaller Device Wireframe
-![Home Page Smaller Device Wireframe]()
+![Home Page Smaller Devices / Responsive Wireframe](assets/images/wireframes/phone-page-top.png)
+
+![Home Page Smaller Devices / Responsive Wireframe](assets/images/wireframes/phone-page-bottom.png)
 
 > The deisgn I have implemented in the wire frame is in aim of making the game simple, responsive and user friendly.
 > The image on the back of the cards (the image displayed before turning) has been created by me with the help of some free images sourced, the images sourced will be referenced in the relevant section.
@@ -96,15 +98,16 @@
 <a name="features"></a>
 ### index.html
 
-#### Header
-![Header](assets/images/)
+#### Home Page
+![Instruction Page Desktop](assets/images/features/instruction-page.png)
+![Instruction Page Desktop Dark Mode](assets/images/wireframes/instruction-page-dark-mode.png)
+![Home Page Desktop](assets/images/features/home-page-top.png)
+![Home Page Desktop](assets/images/features/home-page-bottom.png)
+![Home Page Desktop Dark Mode](assets/images/features/home-page-dark-mode.png)
+![Home Page Desktop Game Complete](assets/images/features/home-page-complete.png)
+![Home Page Desktop Game Fail](assets/images/features/home-page-fail.png)
 
-> The Header is developed simply with a heading 1 and a button to toggle dark and light mode with a second button to toggle the music on and off. The title of the game returns the user to the start with the instructions displayed at a click. The image diplayed is the the header view on all devices, the layout of the header does not change significantly and throughout each screen size, each element remains in conjunction to the next.
-
-#### Background Section
-![Background Section](assets/images/features/background-)
-
-> Image section with 15 flip cards, the back of the flip cards are initially shown to the user, these contain a personalised picture comprised of 2 images and a title. the images were sourced and the title was created by me, these were then made into one image. The reverse of the cards (front) showcase pictures, each picture is hsown twice on different cards, there is a tractor, car, motorbike, boat,bus, train and lorry. There is also one odd card which contains a picture of a flame, if this card is selected, the game ends and the usr fails. THe idea of the game is to match all 7 pairs without clikcing the flame card.
+> The Home Page is developed with a heading 1 and a button to toggle dark and light mode with a second button to restart the game. The restart button returns the user to the start with the instructions displayed at a click. The body layout comprises of 15 playing cards which turn when clicked. The back of the flip cards are initially shown to the user, these contain a personalised picture comprised of 2 images and a title. the images were sourced and the title was created by me, these were then made into one image. The reverse of the cards (front) showcase pictures, each picture is hsown twice on different cards, there is a tractor, car, motorbike, boat,bus, train and lorry. There is also one odd card which contains a picture of a flame, if this card is selected, the game ends and the usr fails. THe idea of the game is to match all 7 pairs without clikcing the flame card.
 
 #### Footer
 ![Footer](assets/images/features/footer)
