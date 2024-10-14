@@ -152,7 +152,7 @@
 > Used to style and add layout to my project.
 
 ### Font Awesome
-> Used for all the icons in this project
+> Used for all the icons in this project.
 
 ### GoogleFonts
 > Used for the fonts in this project and comparison potential fonts.
@@ -232,13 +232,31 @@
 ## Google Lighthouse Testing
 
 ### index.html
+> Initial lighthouse check.
 
-![Google Lighthouse index.html](assets/images/testing-scans/)
+![Google Lighthouse index.html](assets/images/testing-scans/initial-lighthouse.png)
+
+>Updated lighthouse check. Updated the meta descrittion, updated colors for better contrast, updated alts for images, added aria-label for social media links. This increased my lighthouse score.
+
+![Google Lighthouse index.html](assets/images/testing-scans/updated-lighthouse.png)
+
+>Individual scans.
+
+![Google Lighthouse index.html](assets/images/testing-scans/best-practices.png)
+
+![Google Lighthouse index.html](assets/images/testing-scans/accessibility.png)
+
+![Google Lighthouse index.html](assets/images/testing-scans/performance.png)
+
+![Google Lighthouse index.html](assets/images/testing-scans/seo.png)
 
 ## HTML Validation
 
 ### index.html
-![W3 index.html Check](assets/images/testing-scans/index-w3-check)
+![W3 index.html Check](assets/images/testing-scans/html-validation.png)
+#### Result: Error flagged regarding closing tag. HTML checked and closing tag is present.
+
+![W3 style.css Check](assets/images/testing-scans/css-validation.png)
 #### Result: No Errors
 
 <a name="bugs"></a>
