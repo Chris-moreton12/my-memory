@@ -35,7 +35,7 @@
 
 ## Strategy Plane
 
-### To determine the best approach to this project I started with researching the needs of a game built to satify the player and allow thm to enjoy the creation.
+### To determine the best approach to this project I started with researching the needs of a game built to satify the player and allow them to enjoy the creation.
 
 ## User Stories
 
@@ -55,10 +55,10 @@
 > The game should be able to be played on multipe devices and the images should adjust relatively to each screen size.
 
 ## Structure Plane
-> To achieve the above goals, am gam will be created which will show 15 cards, these cards will include 7 pairs and one fail card which ends the game. Upon clicking the cards, they shall turn and show the picture on the reverse side. If 2 cards are clicked which match, these shall remain turned. If 2 cards are clicked which do not match, they shall return face down. the game is complete once all 7 pairs are found by avoiding the fail card. Due to their being a fail card, there will be no countdown on lives (unlimited). 
+> To achieve the above goals, a game will be created which will show 15 cards, these cards will include 7 pairs and one fail card which ends the game. Upon clicking the cards, they shall turn and show the picture on the reverse side. If 2 cards are clicked which match, these shall remain turned. If 2 cards are clicked which do not match, they shall return face down. The game is complete once all 7 pairs are found by avoiding the fail card. Due to their being a fail card, there will be no countdown on lives (unlimited). 
 
 **Home Page**
-> The one page that will be displayed will have all 15 cards displayed along with a header and a footer. The header has the title and a toggle button to change the game from light to dark mode for accessibility, the header also showcases a restart game button whihc allows the user to head back to the instructions section.
+> The one page that will be displayed will have all 15 cards displayed along with a header and a footer. The header has the title and a toggle button to change the game from light to dark mode for accessibility, the header also showcases a restart game button which allows the user to head back to the instructions section.
 
 ## Skeleton Plane
 
@@ -84,20 +84,23 @@
 > The decision on colors that I made was to ensure that the site appears user friendly and that the colors do not contrast with eachother. 
 
  - #color 
- > rgb(38, 0, 255);
- > rgb(255, 0, 0);
- > rgb(37, 6, 241);
- > rgb(255, 255, 255);
- > rgb(34, 34, 34);
- > rgb(221, 221, 221);
- > rgb(255, 99, 71);
- > rgb(23, 241, 30);
- > rgb(13, 247, 25);
- > rgb(255, 99, 71);
- > rgb(255, 69, 0);
+ >rgba(255, 255, 255, 0.8);
+>rgb(7, 7, 7);
+>rgb(255, 255, 255);
+>rgb(249, 9, 9);
+>rgb(34, 34, 34);
+>rgb(221, 221, 221);
+>rgb(51, 51, 51);
+>>rgb(255, 255, 255);
+>rgb(255, 0, 0);
+>rgb(38, 0, 255);
+>rgb(37, 6, 241);
+>rgba(0, 0, 0, 0.7);
+>rgb(249, 9, 9);
+>rgb(220, 62, 30);
 
 >These colors allow each part of my page to stand out which allow for user enjoyability. The abiltiy to toggle from dark to light mode also allows for user enjoyabiltiy and accessibility.
->The images within this project allow for a variety of different colors which alows them to stand out from the page. There does appear to be a large amount of color used however, these colors contain multiple different shades of each to allow for the hover affect and a slight color variation upon the screen turning dark.
+>The images within this project allow for a variety of different colors which alows them to stand out from the page. There does appear to be a large amount of color used, however, these colors contain multiple different shades of each to allow for the hover affect and a slight color variation upon the screen turning dark.
 
 ### Typography - 
 
@@ -223,7 +226,7 @@
 
 **User testing suggestions**
 
-> User one - Suggested that I should use emoji images to make the game harder to distinguihs between the pictures.
+> User one - Suggested that I should use emoji images to make the game harder to distinguish between the pictures.
 
 > User two - Suggested that I should add another page to allow for more versions of the game to be made.
 
