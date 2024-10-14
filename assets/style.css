@@ -20,13 +20,17 @@ header {
 }
 
 #toggle-theme{
-  background-color: rgb(255, 99, 71);
+  background-color: rgb(7, 7, 7);
   border: none;
   border-radius: 5px;
   color: white;
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+}
+
+#toggle-theme:hover{
+  background-color: rgb(249, 9, 9);
 }
 
 /* Allows for fotter to reamin at bottom of page, adapted from stack overflow*/
@@ -87,14 +91,14 @@ button {
   padding: 10px 20px;
   font-size: 18px;
   cursor: pointer;
-  background-color: rgb(23, 241, 30);
+  background-color: rgb(249, 9, 9);
   color: white;
   border: none;
   border-radius: 5px;
 }
 
 #start-game:hover {
-  background-color: rgb(13, 247, 25);
+  background-color: rgb(220, 62, 30);
 }
 
 .game-container {
@@ -108,7 +112,7 @@ button {
 
 /* Stlying for restart game button */
 #restart-game {
-  background-color: rgb(255, 99, 71);
+  background-color: rgb(8, 8, 8);
   border: none;
   border-radius: 5px;
   color: white;
