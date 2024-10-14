@@ -81,7 +81,7 @@
 ### Color
 > I decided for this project that to make it stand out and to give the users an enjoyable expeirence, that color was required. Each card has a different picture whcih allows for a variety of colors to be shown in aim of making the game enjoyable.
 
-> The decision on colors that I made was to incorporate. 
+> The decision on colors that I made was to ensure that the site appears user friendly and that the colors do not contrast with eachother. 
 
  - #color 
  > rgb(38, 0, 255);
@@ -114,29 +114,26 @@
 
 #### Home Page
 ![Instruction Page Desktop](assets/images/features/instruction-page.png)
-![Instruction Page Desktop Dark Mode](assets/images/wireframes/instruction-page-dark-mode.png)
+![Instruction Page Desktop Dark Mode](assets/images/features/instruction-page-dark-mode.png)
 ![Home Page Desktop](assets/images/features/home-page-top.png)
-![Home Page Desktop](assets/images/features/home-page-bottom.png)
 ![Home Page Desktop Dark Mode](assets/images/features/home-page-dark-mode.png)
-![Home Page Desktop Game Complete](assets/images/features/home-page-complete.png)
-![Home Page Desktop Game Fail](assets/images/features/home-page-fail.png)
 
 > The Home Page is developed with a heading 1 and a button to toggle dark and light mode with a second button to restart the game. The restart button returns the user to the start with the instructions displayed at a click. The body layout comprises of 15 playing cards which turn when clicked. The back of the flip cards are initially shown to the user, these contain a personalised picture comprised of 2 images and a title. the images were sourced and the title was created by me, these were then made into one image. The reverse of the cards (front) showcase pictures, each picture is hsown twice on different cards, there is a tractor, car, motorbike, boat,bus, train and lorry. There is also one odd card which contains a picture of a flame, if this card is selected, the game ends and the usr fails. THe idea of the game is to match all 7 pairs without clikcing the flame card.
 
 #### Footer
-![Footer](assets/images/features/footer)
+![Footer](assets/images/features/home-page-bottom.png)
 
-> the footer is a simple footer with 3 i class elements using font-awesome icons. These icons are links to social media accounts (facebook, instagrem and twitter).
+> The footer is a simple footer with 3 i class elements using font-awesome icons. These icons are links to social media accounts (facebook, instagrem and twitter).
 
 #### You Win alert
-![You Win alert](assets/images/)
+![You Win alert](assets/images/features/home-page-complete.png)
 
-> This is the alert whhich pops up if you win the game.
+> This is the alert which pops up if you win the game.
 
 #### You Failed alert
-![You Failed alert](assets/images/)
+![You Failed alert](assets/images/features/home-page-fail.png)
 
-> This is the alert whhich pops up if you fail the game.
+> This is the alert which pops up if you fail the game.
 
 <a name="left"></a>
 # Features Left to implement
