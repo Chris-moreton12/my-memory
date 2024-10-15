@@ -29,7 +29,7 @@
  <a name="ux"></a>
 
  ### Pre-project Planning
-> Before starting this project, I had a look over some examples from previous students and some examples that were given to me as part of Code Institutes learning sessions. I took inspiration for ideas and came up wit the plan to create a memory game which tests memory but also perseverance with the change to fail the game at any point.
+> Before starting this project, I had a look over some examples from previous students and some examples that were given to me as part of Code Institutes learning sessions. I took inspiration for ideas and came up with the plan to create a memory game which tests memory but also perseverance with the chance to fail the game at any point.
 
 # UX design
 
@@ -47,7 +47,7 @@
 ### Webite Owner
 > As a game developer, I would like my users ot have fun whilst playing my game, I would like my users to be challenged and I would like the game to be played over again without the user finding it boring.
 > As a game developer, I would like my users to be able to play this game on multiple different devices with ease.
->The purpose of this game is to ensure that users can have fun and be challenged at times. The game can test patinnce and skill along with memory. Thhe value that this site has to users is that they can play this game with ease on any device and still enjoy the layout without it being affected by screen size.
+>The purpose of this game is to ensure that users can have fun and be challenged at times. The game can test patinnce and skill along with memory. The value that this site has to users is that they can play this game with ease on any device and still enjoy the layout without it being affected by screen size.
 
 ## Scope Plane
 > The game should be easy to understand how the game works without the need for rules, however for accessibility, the game will display rules upon entering the site.  
@@ -56,7 +56,7 @@
 > The game should be able to be played on multipe devices and the images should adjust relatively to each screen size.
 
 ## Structure Plane
-> To achieve the above goals, a game will be created which will show 15 cards, these cards will include 7 pairs and one fail card which ends the game. Upon clicking the cards, they shall turn and show the picture on the reverse side. If 2 cards are clicked which match, these shall remain turned. If 2 cards are clicked which do not match, they shall return face down. The game is complete once all 7 pairs are found by avoiding the fail card. Due to their being a fail card, there will be no countdown on lives (unlimited). 
+> To achieve the above goals, a game will be created which will show 15 cards, these cards will include 7 pairs and one fail card which ends the game. Upon clicking the cards, they shall turn and show the picture on the reverse side. If 2 cards are clicked which match, these shall remain turned. If 2 cards are clicked which do not match, they shall return face down. The game is complete once all 7 pairs are found by avoiding the fail card. Due to there being a fail card, there will be no countdown on lives (unlimited). 
 
 **Home Page**
 > The one page that will be displayed will have all 15 cards displayed along with a header and a footer. The header has the title and a toggle button to change the game from light to dark mode for accessibility, the header also showcases a restart game button which allows the user to head back to the instructions section.
@@ -106,10 +106,9 @@
 ### Typography - 
 
 >The font's chosen for this project were:
-
+Roboto with a back up of San-Serif
  - 
-> The idea behind this choice was...
-> The back-up font...
+> The idea behind this choice was to allow for a readable font with the necessary precaution to use San-Serif if the browser does not support Roboto.
 
 ## Features
 
@@ -124,7 +123,7 @@
 ![Home Page Desktop Mobile View](assets/images/features/home-page-mobile-top.png)
 ![Home Page Desktop Mobile View](assets/images/features/home-page-mobile-bottom.png)
 
-> The Home Page is developed with a heading 1 and a button to toggle dark and light mode with a second button to restart the game. The restart button returns the user to the start with the instructions displayed at a click. The body layout comprises of 15 playing cards which turn when clicked. The back of the flip cards are initially shown to the user, these contain a personalised picture comprised of 2 images and a title. the images were sourced and the title was created by me, these were then made into one image. The reverse of the cards (front) showcase pictures, each picture is hsown twice on different cards, there is a tractor, car, motorbike, boat,bus, train and lorry. There is also one odd card which contains a picture of a flame, if this card is selected, the game ends and the usr fails. THe idea of the game is to match all 7 pairs without clikcing the flame card. These scan show that the game has followed what my users wanted, it allows for a fun and easy game which is also challenging. It allos for easy play on your mobile device and it allows for the game to be played over without the knowing of where the cards are.
+> The Home Page is developed with a heading 1 and a button to toggle dark and light mode with a second button to restart the game. The restart button returns the user to the start with the instructions displayed at a click. The body layout comprises of 15 playing cards which turn when clicked. The back of the flip cards are initially shown to the user, these contain a personalised picture comprised of 2 images and a title. the images were sourced and the title was created by me, these were then made into one image. The reverse of the cards (front) showcase pictures, each picture is shown twice on different cards, there is a tractor, car, motorbike, boat,bus, train and lorry. There is also one odd card which contains a picture of a flame, if this card is selected, the game ends and the usr fails. THe idea of the game is to match all 7 pairs without clikcing the flame card. These scan show that the game has followed what my users wanted, it allows for a fun and easy game which is also challenging. It allows for easy play on your mobile device and it allows for the game to be played over without the knowing of where the cards are.
 
 #### Footer
 ![Footer](assets/images/features/home-page-bottom.png)
@@ -161,7 +160,7 @@
 > Used for all the icons in this project.
 
 ### GoogleFonts
-> Used for the fonts in this project and comparison potential fonts.
+> Used for the fonts in this project and comparison of potential fonts.
 
 ### https://www.freeconvert.com
 > Used to convert files from png to webp to reduce size and improve web loading speed.
@@ -186,7 +185,7 @@
 
 <a name="testing"></a>
 # Testing
-> Testing on this site was primarily completed by myself and collegues within my workplace. Each new commit allowed for a new test to be completed. After each major change, this change was manually checked by me to ensure that it worked as expected. Thi meant that each session of coding, there were multiple tests completed. Manual tests were also completed by collegues at work who gave thier suggestions and their input in the game.
+> Testing on this site was primarily completed by myself and collegues within my workplace. Each new commit allowed for a new test to be completed. After each major change, this change was manually checked by me to ensure that it worked as expected. This meant that each session of coding, there were multiple tests completed. Manual tests were also completed by collegues at work who gave thier suggestions and their input in the game.
 
 ### Testing Phase
 
@@ -197,7 +196,7 @@
 |Footer social links all lead to their respective social media sites |Pass|
 |Ony a maximum of 2 cards could be clicked at any one time| Pass|
 |If the cards match, they remained turned| Pass|
-|If the cards do not match, they turn bakc to their original state| Pass|
+|If the cards do not match, they turn back to their original state| Pass|
 |If the flame card is clicked, the site pops up an alert to state you failed and the user clicks ok to return to the welcome message| Pass|
 |If the user matches all 7 pairs, the game pops up an alert to state you win| Pass|
 |The restart button in the header led the user back to the start welcome message| Pass  |
@@ -206,17 +205,17 @@
 | Test |Outcome  |
 |--|--|
 |Test to see if the default layout of the cards is in 3 rows of 5|Pass |
-|Test to see if on small screens, the cards adjust to dispalay in rows of two woth the last odd card centered for aesthetic purposes |Pass |
+|Test to see if on small screens, the cards adjust to dispalay in rows of two with the last odd card centered for aesthetic purposes |Pass |
 
 ### User testing
 
 **User testing Challenge**
 
-> 3 users are given tasks to complete wh nvisiting the game site.
+> 3 users are given tasks to complete when visiting the game site.
 
 | Test | Result |
 |--|--|
-|When entering the site, ensure thatthe game rules pop up.| 100%|
+|When entering the site, ensure that the game rules pop up.| 100%|
 |Please press the toggle dark button to check if the screen goes into dark mode|100%  |
 |Please click on the cards to ensure that only 2 cards turn, also make sure that if they match that they remain turned| 100%|
 |Please search for the flame card to see if it resets the game after an alert pops up| 100%  |
@@ -290,7 +289,7 @@
  4. In the next dropdown labeled `/root` I left as the default option.
  5. Selected Save
 
- > I then received a notification from GitHub that my project is being deployed and after about 2 minute and a some page refreshes it was ready and live.
+ > I then received a notification from GitHub that my project is being deployed and after about 2 minutes and a some page refreshes it was ready and live.
 
  <a name="credits"></a>
 ## Credits
