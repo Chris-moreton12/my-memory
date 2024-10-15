@@ -47,6 +47,7 @@
 ### Webite Owner
 > As a game developer, I would like my users ot have fun whilst playing my game, I would like my users to be challenged and I would like the game to be played over again without the user finding it boring.
 > As a game developer, I would like my users to be able to play this game on multiple different devices with ease.
+>The purpose of this game is to ensure that users can have fun and be challenged at times. The game can test patinnce and skill along with memory. Thhe value that this site has to users is that they can play this game with ease on any device and still enjoy the layout without it being affected by screen size.
 
 ## Scope Plane
 > The game should be easy to understand how the game works without the need for rules, however for accessibility, the game will display rules upon entering the site.  
@@ -84,7 +85,7 @@
 > The decision on colors that I made was to ensure that the site appears user friendly and that the colors do not contrast with eachother. 
 
  - #color 
- >rgba(255, 255, 255, 0.8);
+>rgba(255, 255, 255, 0.8);
 >rgb(7, 7, 7);
 >rgb(255, 255, 255);
 >rgb(249, 9, 9);
@@ -120,8 +121,10 @@
 ![Instruction Page Desktop Dark Mode](assets/images/features/instruction-page-dark-mode.png)
 ![Home Page Desktop](assets/images/features/home-page-top.png)
 ![Home Page Desktop Dark Mode](assets/images/features/home-page-dark-mode.png)
+![Home Page Desktop Mobile View](assets/images/features/home-page-mobile-top.png)
+![Home Page Desktop Mobile View](assets/images/features/home-page-mobile-bottom.png)
 
-> The Home Page is developed with a heading 1 and a button to toggle dark and light mode with a second button to restart the game. The restart button returns the user to the start with the instructions displayed at a click. The body layout comprises of 15 playing cards which turn when clicked. The back of the flip cards are initially shown to the user, these contain a personalised picture comprised of 2 images and a title. the images were sourced and the title was created by me, these were then made into one image. The reverse of the cards (front) showcase pictures, each picture is hsown twice on different cards, there is a tractor, car, motorbike, boat,bus, train and lorry. There is also one odd card which contains a picture of a flame, if this card is selected, the game ends and the usr fails. THe idea of the game is to match all 7 pairs without clikcing the flame card.
+> The Home Page is developed with a heading 1 and a button to toggle dark and light mode with a second button to restart the game. The restart button returns the user to the start with the instructions displayed at a click. The body layout comprises of 15 playing cards which turn when clicked. The back of the flip cards are initially shown to the user, these contain a personalised picture comprised of 2 images and a title. the images were sourced and the title was created by me, these were then made into one image. The reverse of the cards (front) showcase pictures, each picture is hsown twice on different cards, there is a tractor, car, motorbike, boat,bus, train and lorry. There is also one odd card which contains a picture of a flame, if this card is selected, the game ends and the usr fails. THe idea of the game is to match all 7 pairs without clikcing the flame card. These scan show that the game has followed what my users wanted, it allows for a fun and easy game which is also challenging. It allos for easy play on your mobile device and it allows for the game to be played over without the knowing of where the cards are.
 
 #### Footer
 ![Footer](assets/images/features/home-page-bottom.png)
@@ -197,6 +200,7 @@
 |If the cards do not match, they turn bakc to their original state| Pass|
 |If the flame card is clicked, the site pops up an alert to state you failed and the user clicks ok to return to the welcome message| Pass|
 |If the user matches all 7 pairs, the game pops up an alert to state you win| Pass|
+|The restart button in the header led the user back to the start welcome message| Pass  |
 
 **Testing for responsiveness**
 | Test |Outcome  |
@@ -315,6 +319,9 @@ https://www.freepik.com/free-photo/close-up-pink-jigsaw-puzzle-piece-blue-backgr
 <a name="content"></a>
 
 ## Content & Resources
+
+### https://wireframe.cc
+> Used to create the wireframes for this game.
 
 ### https://validator.w3.org/
 > W3C validator to check HTML validation.
