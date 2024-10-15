@@ -16,7 +16,8 @@ $(document).ready(function () {
         });
     });
 
-    // Allows for background to be turned dark when dark mode button is clicked, code adapted from stack overflow
+    /* Allows for background to be turned dark when dark mode button is clicked, code adapted from stack overflow
+    https://stackoverflow.com/questions/56511466 how-to-create-a-jquery-function-to-toggle-dark-mode */
     $("#toggle-theme").click(function () {
         $("#canvas-wrapper").toggleClass("dark-mode");
         if ($("#canvas-wrapper").hasClass("dark-mode")) {
@@ -31,7 +32,8 @@ $(document).ready(function () {
         resetGame(); // Call the resetGame function when the restart button is clicked in game
     });
 
-    // Function to shuffle the cards randomly
+    /* Function to shuffle the cards randomly
+    https://stackoverflow.com/questions/73603123/function-for-shuffling-a-deck-of-cards-js#:~:text=So%20an%20easier%20way%20to%20shuffle */
     function shuffleCards() {
         const cards = $(".card");
         const shuffledCards = cards.sort(function () {
@@ -78,7 +80,8 @@ $(document).ready(function () {
                     secondCard = null;
                     preventClick = false;
 
-                    // Check if the player has matched all the pairs
+                    /* Check if the player has matched all the pairs
+                    https://stackoverflow.com/questions/2804157/how-to-alert-using-jquery#:~:text=3%20Answers.%20Sorted%20by:%2093.%20$(%22.overdue%22).each */
                     if (matchedCards === totalPairs) {
                         setTimeout(() => {
                             alert("You Win!"); // Show the win message if all pairs are matched 

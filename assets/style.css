@@ -181,7 +181,7 @@ button {
   margin-top: 10px;
 }
 
-/* Disable visual search hover, used from stack overflow  */
+/* Disable visual search hover, used from stack overflow https://stackoverflow.com/questions/10809995/css-disable-text-selection  */
 img {
   -webkit-user-select: none;
   -webkit-touch-callout: none;
