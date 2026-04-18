@@ -189,6 +189,14 @@ Roboto with a back up of San-Serif
 
 ### Testing Phase
 
+Manual testing involves directly interacting with the application to check that everything works as intended and provides a good user experience. For my memory card game, I carried out manual testing by playing full games across all difficulty levels. This included selecting and matching card pairs, confirming that matches were recognised correctly, ensuring card counts were accurate, and checking that win conditions triggered at the right time. I also tested the layout on different screen sizes to make sure the game remained responsive and easy to use. This type of testing was especially important because the game depends on visual feedback and intuitive interactions, which are best evaluated by a real user.
+
+Automated testing uses scripts to test functionality without manual input, such as unit tests for specific functions. I did not implement automated testing in this project because the codebase is relatively small and the logic is closely tied to DOM interactions. However, I understand that automated testing is valuable in larger projects, particularly where there is complex logic or a need for continuous integration and regular regression testing.
+
+In terms of when to use each approach, manual testing is well suited to user interface–focused applications like this memory game, where the look, feel, and interactivity are key. Automated testing would be more appropriate for larger-scale applications with more complex functionality or frequent updates that require consistent and repeatable testing.
+
+Overall, my testing strategy focused on three main areas: functionality (ensuring the matching logic and win conditions worked correctly), usability (providing a clear, child-friendly interface with intuitive card selection), and responsiveness (using a flexible, mobile-first layout). I achieved this through thorough manual testing supported by Lighthouse audits to evaluate performance and accessibility.
+
 **Testing for game function and links**
 | Test |Outcome  |
 |--|--|
