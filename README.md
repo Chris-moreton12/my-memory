@@ -197,6 +197,9 @@ In terms of when to use each approach, manual testing is well suited to user int
 
 Overall, my testing strategy focused on three main areas: functionality (ensuring the matching logic and win conditions worked correctly), usability (providing a clear, child-friendly interface with intuitive card selection), and responsiveness (using a flexible, mobile-first layout). I achieved this through thorough manual testing supported by Lighthouse audits to evaluate performance and accessibility.
 
+![Jshint Testing](assets/images/testing-scans/jshint.png)
+
+
 **Testing for game function and links**
 | Test |Outcome  |
 |--|--|
